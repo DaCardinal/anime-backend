@@ -1,9 +1,6 @@
-import json
 from fastapi import APIRouter
 from typing import List
 
-from fastapi.responses import JSONResponse
-from pydantic import Json
 import app.db.database as database, app.schema.user as schemas
 from sqlalchemy.orm import Session
 from fastapi import APIRouter, Depends, status

@@ -1,6 +1,4 @@
 from sqlalchemy.orm import Session
-import app.models as models
-from fastapi import HTTPException, status
 from app.config import settings
 import requests
 

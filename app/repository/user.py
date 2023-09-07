@@ -1,11 +1,9 @@
 import json
 
-from pydantic import Json
 import app.utils.constants as c
 from sqlalchemy.orm import Session
 import app.models as models, app.schema.user as schemas
 from fastapi import HTTPException, status
-import uuid
 from app.config import settings
 import requests
 

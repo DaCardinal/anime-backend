@@ -1,7 +1,7 @@
 from typing_extensions import Annotated, Union
-import app.db.database as database, app.schema.user as schemas
+import app.db.database as database
 from sqlalchemy.orm import Session
-from fastapi import APIRouter, Depends, status, Form, Header
+from fastapi import APIRouter, Depends, Form, Header
 from app.repository import token as token_service
 from app.repository import user as user_service
 

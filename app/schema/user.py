@@ -1,9 +1,6 @@
-from typing import Dict
 from datetime import datetime
-import json
 from typing import Any, Optional
 from pydantic import BaseModel
-from sqlalchemy import JSON
 
 class User(BaseModel):
     id: Optional[str]
