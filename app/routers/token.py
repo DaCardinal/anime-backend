@@ -1,4 +1,4 @@
-from typing import List, Annotated, Union
+from typing_extensions import Annotated, Union
 import app.db.database as database, app.schema.user as schemas
 from sqlalchemy.orm import Session
 from fastapi import APIRouter, Depends, status, Form, Header
